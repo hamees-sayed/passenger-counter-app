@@ -17,8 +17,8 @@ function decrement() {
 
 function save() {
     let entriesString = count + ", "
-    saveEl.innerText += " " + entriesString   
+    saveEl.innerText += " " + entriesString
 
-    count -= count
+    count -= count 
     document.getElementById("count-el").innerText = count
 }
